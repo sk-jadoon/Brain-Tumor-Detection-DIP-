@@ -1,0 +1,11 @@
+# MRI Streamlit app + optional FastAPI backend — install with:
+#   pip install -r requirements.txt
+
+streamlit>=1.41.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional: REST API (backend_api.py)
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
